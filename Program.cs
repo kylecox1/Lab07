@@ -137,7 +137,7 @@ namespace Lab07
 
         public static bool ValidateHtmlElements(string elements)
         {
-            string pattern = @"^<([a-z]{1}[0-9]*)></\1>$";
+            string pattern = @"^<([A-Za-z]{1}[0-9]*)></\1>$";
             Regex regex = new Regex(pattern);
             if (regex.IsMatch(elements))
             {
