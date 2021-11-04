@@ -7,6 +7,7 @@ namespace Lab07
     {
         static void Main(string[] args)
         {
+            // Console.WriteLine(Divide(1,0));  // testing DivideByZeroException
             bool playAgain = true;
             do
             {
@@ -170,5 +171,9 @@ namespace Lab07
             return false;
         }
 
+        public static double Divide(int num1, int num2)
+        {
+            return (num1 / num2);
+        }
     }
 }
