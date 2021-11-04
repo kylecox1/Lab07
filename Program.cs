@@ -75,7 +75,7 @@ namespace Lab07
                 playAgain = PlayAgain();
             } while (playAgain == true);
 
-            Console.WriteLine("Thanks, press any to exit.");
+            Console.WriteLine("Thanks, press any key to exit.");
             Console.ReadKey();
         }
 
